@@ -1,0 +1,9 @@
+.right{
+    text-align: right;  /* texte sur la droite dans la div right*/
+}
+
+body {
+    background-color: lightgray;/*couleur de font de page en gris */
+  font-size: 30px;/* taille du texte qui est dans le body*/
+  
+}

@@ -1,0 +1,159 @@
+body {
+    /* dans le body il ya une marge qui espace les bouton du texte*/
+   margin: 10px;
+
+}
+
+
+.bandeau {
+   
+
+   height: 100px;    /*ce css permet de a avoir une hauteur une largeur du bandeau ainsi que le text  ici les bouton du bandeau qui est centrer */
+   width: 100%;
+   text-align: center;
+   
+}
+
+.right {
+   text-align: right; /* text alignier a droite dans la classe right*/
+}
+
+body {
+   background-image: url("menu3.jpg"); /* image de font de la page de menu avec un liens vers une photo*/
+
+   background-size: cover; /* ceci permet d' ajuster la photo de font d'ecan de la page menu*/ 
+   background-repeat: no-repeat; /*ceci permet de ne pas faire repeter la photo de font plusieur fois */
+
+}
+
+
+.menu {
+   text-decoration: none; /* ceci annule la bars qui etait en dessous des bouton*/
+
+}
+
+.theme {
+
+   text-align: center; /* texte de la classe theme sera centrer*/
+   font-size: 150%;/* taille de la police */
+
+
+}
+
+.theme p {
+   font-weight: bold;/*mettre la police en gras*/
+}
+
+.footer {
+
+   height: 100px; /* hauteur et longeur de pied de page ainsi que le txte alignier */
+   width: 100%;
+   text-align: center;
+   display: flex;    /* permet de faire un tableau qui n'est pas visible pour la disposition des element*/
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   bottom: 0;
+   color: red; /*le texte est ecrit en rouge*/
+}
+
+.pied {
+   font-size: 150%;
+   color: red;
+}
+
+.bouton1 {
+   font-size: 150%;  /* taille des bouton avec une couleur de font ici gris sans bordure avec le texte ecrit en noir avec les coin arrondi*/
+   background-color: silver;
+   border: none;
+   padding: 6px;
+   border-radius: 8px;
+   font: bold 20px Arial;
+   color: black;
+}
+
+.espace {
+   width: 100%;/* auteur et largeur d'un espace depuis le haut de la page*/
+   height: 20px; 
+}
+
+body {
+   border: 0px;
+   margin: 0;
+}
+
+
+.bandeau {
+   border: 0px;
+
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   /*le texte sera centrer*/
+}
+
+.right {
+   text-align: right;
+}
+
+@media (max-width: 1000px) { /* dans la balse media on remet tous le code css et ainsi que les modifications qui seront presente pour passer en mode telephone ici c'est la taille de photo de font d'ecran qui change */
+   body {
+      background-image: url("menu3.jpg");
+
+      background-size: auto;
+      background-repeat: no-repeat;
+   
+
+   }
+
+   .menu {
+      text-decoration: none;
+
+   }
+
+   .theme {
+
+      text-align: center;
+      font-size: 150%;
+
+   }
+
+
+   .theme p {
+      font-weight: bold;
+   }
+
+   .footer {
+
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      color: red;
+   }
+
+   .pied {
+      font-size: 150%;
+      color: red;
+   }
+
+   .bouton1  {
+      font-size: 150%;
+      background-color: silver;
+      border: none;
+      padding: 6px;
+      border-radius: 8px;
+      font: bold 20px Arial;
+      color: #fff;
+      color: black;
+   }
+
+   .espace {
+      width: 100%;
+      height: 20px;
+   }
+}

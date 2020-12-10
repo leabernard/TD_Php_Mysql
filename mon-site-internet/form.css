@@ -1,0 +1,11 @@
+.body{
+    background-color: lightgrey ;  /*couleur de font de page en gris */
+    
+}
+.contenu{
+    font-size: 30px; /* taille du texte qui est dans la div contenu et une marge entre me cacter et le formulaire qui permet de espacer les deux*/
+    margin-top: 100px;
+}
+.mail{
+    font-size: 35px;/* taille du texte du mail*/
+}

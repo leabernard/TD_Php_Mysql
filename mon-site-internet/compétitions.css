@@ -1,0 +1,12 @@
+body{
+    background-color: lightgray; /* couleur de font de page*/
+    font-size: 30px;/* taille du texte qui est dans le body*/
+}
+.intro{
+    font-size: 40px;/* taille du texte qui est dans l'intro*/
+}
+
+.rampagne{
+    margin-top: 130px; /* espace entre les red bull rampagne et l'intro*/
+}
+
